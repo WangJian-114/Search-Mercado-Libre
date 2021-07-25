@@ -1,0 +1,79 @@
+$primary: #fee600;
+$light-grey: #eeeeee;
+
+html {
+    height: 100%;
+}
+  
+body {
+    min-height: 100%;
+    background-color: $light-grey !important;
+}
+  
+.container-fluid {
+    background-color: $primary;
+    padding:30px;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+}
+
+@media (max-width: 568px ) {
+    .container {
+        display: block;
+    }
+    .logo {
+        margin-right: 0!important;
+    }
+    .logo img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .search {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.logo img {
+    width:134px;
+    height:34px;
+    object-fit: cover;
+}
+
+
+
+input {
+    height: 20px;
+    padding:10px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+.btn-search {
+    background-color: $light-grey;
+    border: 0 !important;
+    padding: 12px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+.btn-search:hover {
+    cursor:pointer;
+    background-color: lightblue;
+}
+

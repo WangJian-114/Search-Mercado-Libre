@@ -1,0 +1,17 @@
+react-router-dom --> La mas completa
+wouter           --> Simplificada
+
+/               Home
+/products       Productos
+/products/:id   Producto
+
+
+hay tres  formas de renderizar componentes 
+render      : es mas eficiente por que tiene un react.memo a dentro, 
+              se usa cuando no tenes necesidad de pasarlo props, componente independiente
+component
+
+exact es para hacer una coincidencia exacta de la ruta 
+switch es para agarrar primera conincidencia (si esta el exact es conincidencia exacta sino no, es una coincidencia comun  se va renderizar siempre el componente de la ruta "/", por no es una coincidencia exacta)
+
+
